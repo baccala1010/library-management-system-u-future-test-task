@@ -33,7 +33,7 @@ The Library Management System is a simple application designed to manage a colle
 
 You can run the application from the command line or using an IDE like IntelliJ IDEA or Eclipse:
 ````
-   cd src/main/java/org/example java org.example.Main
+   cd src/main/java/org/example java Main
 ````
 ### Running the Tests
 

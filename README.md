@@ -33,13 +33,13 @@ The Library Management System is a simple application designed to manage a colle
 
 You can run the application from the command line or using an IDE like IntelliJ IDEA or Eclipse:
 ````
-    cd target/classes java org.example.Main
+   cd src/main/java/org/example java org.example.Main
 ````
 ### Running the Tests
 
 You can run the unit tests using Maven:
 ````
-    mvn test
+   mvn test
 ````
 
 ## Author 

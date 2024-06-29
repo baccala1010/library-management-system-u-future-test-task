@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827a4d8d-6646-4eca-abf8-bb00ff9d793e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/services/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/services/BookServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2iVrWVGHcpK2hh0rPAuGVwLkDWH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,28 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.BookServiceTest.testAddBook.executor": "Run",
-    "JUnit.BookServiceTest.testDeleteBook.executor": "Run",
-    "JUnit.BookServiceTest.testGetAllBooks.executor": "Run",
-    "JUnit.BookServiceTest.testInvalidInput.executor": "Run",
-    "JUnit.BookServiceTest.testSearchBooks.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookServiceTest.testAddBook.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookServiceTest.testDeleteBook.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookServiceTest.testGetAllBooks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookServiceTest.testInvalidInput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookServiceTest.testSearchBooks.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.BookServiceTest.testGetAllBooks">
     <configuration name="BookServiceTest.testAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library-management-system-u-future-test-task" />
@@ -163,7 +164,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719586619930</updated>
-      <workItem from="1719586621046" duration="10164000" />
+      <workItem from="1719586621046" duration="10762000" />
+      <workItem from="1719624599704" duration="37000" />
+      <workItem from="1719628166507" duration="20000" />
+      <workItem from="1719634085851" duration="343000" />
     </task>
     <servers />
   </component>

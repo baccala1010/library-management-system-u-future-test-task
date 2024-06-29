@@ -5,6 +5,8 @@ import org.example.exceptions.InvalidInputException;
 import org.example.models.Book;
 import org.example.services.BookService;
 
+import java.util.Dictionary;
+import java.util.Hashtable;
 import java.util.List;
 import java.util.Scanner;
 
@@ -40,15 +42,15 @@ public class Main {
 
                 case 2:
                     System.out.println("Please enter the ISBN of the book to delete:");
-                    String deleteIsbn = sc.next();
+                    String isbnToDelete = sc.next();
 
-                    List<Book> booksToDelete = bookService.searchBooks(4, deleteIsbn);
+                    List<Book> books = bookService.searchBooks("isbn", isbnToDelete);
 
-                    if (booksToDelete.isEmpty()) {
+                    if (books.isEmpty()) {
                         throw new BookNotFoundException("Book not found");
-                    } else {
-                        bookService.deleteBook(booksToDelete.get(0));
                     }
+
+                    bookService.deleteBook(books.get(0));
                     break;
 
                 case 3:
@@ -58,14 +60,21 @@ public class Main {
                     System.out.println("3. Publication Year");
                     System.out.println("4. ISBN");
 
-                    int searchCriteriaChoice = sc.nextInt();
+                    int criteria = sc.nextInt();
 
                     System.out.println("Please enter the search value:");
                     String value = sc.next();
 
-                    List<Book> searchResults = bookService.searchBooks(searchCriteriaChoice, value);
+                    Dictionary<Integer, String> dict = new Hashtable<Integer, String>();
 
-                    for (Book book : searchResults) {
+                    dict.put(1, "title");
+                    dict.put(2, "author");
+                    dict.put(3, "publication year");
+                    dict.put(4, "isbn");
+
+                    List<Book> results = bookService.searchBooks(dict.get(criteria), value);
+
+                    for (Book book : results) {
                         System.out.println(book);
                     }
                     break;

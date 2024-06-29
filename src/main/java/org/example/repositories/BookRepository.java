@@ -8,5 +8,5 @@ public interface BookRepository {
     List<Book> getAllBooks();
     void addBook(Book book);
     void deleteBook(Book book);
-    List<Book> searchBooks(int criteria, String value);
+    List<Book> searchBooks(String criteria, String value);
 }

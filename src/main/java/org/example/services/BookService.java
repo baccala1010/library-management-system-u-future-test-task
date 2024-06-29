@@ -27,17 +27,17 @@ public class BookService implements BookRepository {
     }
 
     @Override
-    public List<Book> searchBooks(int criteria, String value) {
+    public List<Book> searchBooks(String criteria, String value) {
         return books.stream()
                 .filter(book -> {
                     switch (criteria) {
-                        case 1:
+                        case "title":
                             return book.getTitle().contains(value);
-                        case 2:
+                        case "author":
                             return book.getAuthor().contains(value);
-                        case 3:
+                        case "publication year":
                             return String.valueOf(book.getPublicationYear()).contains(value);
-                        case 4:
+                        case "isbn":
                             return book.getIsbn().contains(value);
                         default:
                             return false;

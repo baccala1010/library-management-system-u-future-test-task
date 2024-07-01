@@ -47,7 +47,7 @@ public class Main {
                     List<Book> books = bookService.searchBooks("isbn", isbnToDelete);
 
                     if (books.isEmpty()) {
-                        throw new BookNotFoundException("Book not found");
+                        throw new BookNotFoundException("Book not found...");
                     }
 
                     bookService.deleteBook(books.get(0));
